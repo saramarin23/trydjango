@@ -14,13 +14,12 @@ import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# /Users/saramarin/Desktop/Portfolio/trydjango/src
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '^%c3hcs)@1damg9u4^z-#)_b0ogcw@t*czmzzzdz*9gj$%v8z!'
+SECRET_KEY = '^%c3hcs)@1damg9u4^z-#)_b0ogcw@t*czmzlkzzdz*9gj$%v8z!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -37,7 +36,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # own
+    "products"
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
